@@ -1,0 +1,8 @@
+{
+  "label": "Your First Intent",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "A simple guide to creating your first intent."
+  }
+}
