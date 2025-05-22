@@ -1,0 +1,8 @@
+{
+  "label": "Intents",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Everything directly related to intents"
+  }
+}
