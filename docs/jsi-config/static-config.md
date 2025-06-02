@@ -25,16 +25,31 @@ You can add new configs to be used by your or other intents, or use existing int
 | defaultIntent | String         | null          |
 
 
-### Setter
+## Methods
 
-Getter:
+There are 3 methods for the the static configs, the **getter**, **setter**, and **adder**
+
+### Getter
+
+```js
+getStaticConfig("threshold");
+```
+
+#### Method:
+
 ```js
 export function getStaticConfig() {
   
 }
 ```
 
-Setter:
+### Setter
+
+```js
+setStaticConfig("threshold", 0.95);
+```
+
+#### Method:
 
 ```js
 export function setStaticConfig(configName, configValue) {
@@ -52,7 +67,13 @@ export function setStaticConfig(configName, configValue) {
 }
 ```
 
-Adder:
+### Adder
+
+```js
+addStaticConfig('myStaticValue', 'Hello, World!');
+```
+
+#### Method:
 
 ```js
 export function addStaticConfig() {

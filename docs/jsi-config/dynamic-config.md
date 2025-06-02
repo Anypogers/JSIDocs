@@ -23,7 +23,15 @@ You can add new configs to be used by your or other intents, or use existing int
 
 ## Methods
 
-Getter:
+There are 3 methods for the the static configs, the **getter**, **setter**, and **adder**
+
+### Getter
+
+```js
+getDynamicConfig('debugMode')
+```
+
+#### Method:
 
 ```js
 export function getDynamicConfig(configName) {
@@ -31,7 +39,14 @@ export function getDynamicConfig(configName) {
 }
 ```
 
-Setter:
+### Setter
+
+```js
+setDynamicConfig('debugMode', true)
+```
+
+
+#### Method:
 
 ```js
 export function setDynamicConfig(configName, configValue) {
@@ -49,7 +64,13 @@ export function setDynamicConfig(configName, configValue) {
 }
 ```
 
-Adder:
+### Adder
+
+```js
+addDynamicConfig('wakeupHour', 6)
+```
+
+#### Method:
 
 ```js
 export function addDynamicSetting(configname, configValue) {
